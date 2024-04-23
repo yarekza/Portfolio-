@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../script/script.js"></script>
+</head>
+<body onload="start()">
+    <div id="buttons">
+        <p id="score"></p>
+        <button class="btn" onclick="back()">move back</button>
+        <button class="btn" onclick="reset()">play again</button>
+    </div>
+
+    <span id="tab"></span>
+
+    <img src="../img/arrowKeys-300x205.png" alt="Użyj strzałek, aby przesunąć płytki" style="position: absolute; top: 0; left: 0; width: 100px; height: auto;">
+    
+    <div class="footer" style="position: fixed; left: 0; bottom: 0;">
+        &copy 2024 Yaroslav Zahaievskyi
+    </div>
+</body>
+</html>
